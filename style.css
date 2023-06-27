@@ -1,0 +1,22 @@
+.links{
+    text-decoration: none;
+}
+.recipe{
+    font-weight: bolder;
+}
+.recipe .links.chipotle {
+    color:red;
+    background-color: aqua;
+}
+.recipe .links.fRice{
+    color:brown;
+    background-color: hotpink;
+}
+.recipe .links.smoothie{
+    color:hotpink;
+    background-color: brown;
+}   
+h1{
+    color:yellow;
+    background-color: black;
+}
