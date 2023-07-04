@@ -19,9 +19,17 @@
 h1{
     color:yellow;
     background-color: black;
+
     width: max-content;
+    height:max-content;
+}
+ol li{
+    display: inline-block;
+    margin:0 10px;
+
 }
 *{
     font-family: cursive;
+    box-sizing: border-box; /*always added for easier styling
     /*make borders appear/ border: dotted 2px red; */
 }
