@@ -1,35 +1,27 @@
-.links{
-    text-decoration: none;
+.container{
+    text-align: center;
+    /* border: solid 5px hotpink; */
+    padding: 5px;
+    display: flex;
+    font-size: 25px;
 }
-.recipe{
-    font-weight: bolder;
-}
-.recipe .links.chipotle {
-    color:red;
-    background-color: aqua;
-}
-.recipe .links.fRice{
-    color:brown;
+.chipotle{
+    flex:1 1 auto;
     background-color: hotpink;
+    border:solid black 3px;
 }
-.recipe .links.smoothie{
-    color:hotpink;
-    background-color: brown;
-}   
-h1{
-    color:yellow;
-    background-color: black;
+.frice{
+    flex:1 1 auto;
+    background-color: hotpink;
+    border:solid black 3px;
+}
+.smoothie{
+    flex:1 1 auto;
+    background-color: hotpink;
+    text-decoration: none;
+    border:solid black 3px;
+}
 
-    width: max-content;
-    height:max-content;
-}
-ol li{
-    display: inline-block;
-    margin:0 10px;
-
-}
-*{
-    font-family: cursive;
-    box-sizing: border-box; /*always added for easier styling
-    /*make borders appear/ border: dotted 2px red; */
+.a{
+    text-decoration: none;
 }
